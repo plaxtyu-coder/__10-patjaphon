@@ -8,3 +8,10 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 unit = int(input())
+
+if unit <= 50:
+    print ("3บาท")
+elif unit <= 100:
+    print ("4บาท")
+else: 
+    print ("5บาท")
