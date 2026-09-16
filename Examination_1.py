@@ -7,3 +7,9 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 total_minutes = int(input())
+
+ชั่วโมง = total_minutes // 60
+นาทีที่เหลือ = total_minutes % 60
+
+print(ชั่วโมง)
+print(นาทีที่เหลือ)
